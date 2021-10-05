@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Varga Norbert Bootstrap-4 Bike-Rent-page">
+  <title>Bike Rent 0-24</title>
+  <link rel="icon" type="image/ico" href="images/bike-rent.ico">
+
+  <!-- Bootstrap 4.6.0 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Ubuntu:wght@300;400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Font awesome Icons -->
+  <script src="https://kit.fontawesome.com/979e183e09.js" crossorigin="anonymous"></script>
+
+  <!-- My CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <!--    Header section / Brandlogo, main title Etc.    -->
+  <section id="title">
+    <div class="container-fluid">
+
+      <nav class="navbar navbar-expand-md navbar-light">
+        <a class="navbar-brand" href="#">BikeRent</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#bikes">Bikes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <div>
+            <h1>Rent a Bike and have a nice Ride!</h1>
+            <button type="button" class="btn btn-dark btn-md download-button"><i class="fab fa-lg fa-apple"></i>
+              Download</button>
+            <button type="button" class="btn btn-outline-light btn-md download-button"><i
+                class="fab fa-google-play"></i> Download</button>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="logo-box">
+            <img class="bike-logo img-fluid" src="images/—Pngtree—mountain bike logo_5566927.png" alt="iphone-mockup">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!--    Second Section /  Features   -->
+  <section id="features">
+
+    <div class="row">
+      <div class="col-lg-4 features-box">
+        <i class="fas fa-check fa-4x big-green-icon"></i>
+        <h3>Easy to use</h3>
+        <p>Browse our free rides in the app, or just look around any of the stores we have. Also we have spots where you
+          can rent a Bike via our application. You can ride 0-24 if you want!</p>
+      </div>
+      <div class="col-lg-4 features-box">
+        <i class="fas fa-tools fa-4x big-green-icon"></i>
+        <h3>Service and Repair</h3>
+        <p>We have located several repair stations in the city, where you can check your tire pressure or solve some
+          minor maintenance. Also you can bring your bike to any of our stores to check, and fix it when needed.</p>
+      </div>
+      <div class="col-lg-4 features-box">
+        <i class="fas fa-shopping-cart fa-4x big-green-icon"></i>
+        <h3>Rent & Shop</h3>
+        <p>You can rent any of our free bikes, or you can buy a new for yourself. Browse our webshop if you need any
+          kind of parts or accesories to upgrade your bike, or just make it unique</p>
+      </div>
+    </div>
+
+  </section>
+
+  <!--    Third Section /  testimonials carousel   -->
+  <section id="testimonials">
+    <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="3000">
+          <h2>I'm always choose the BikeRent when i want to take a ride!</h2>
+          <em>Angela Biker, Bikenistan</em>
+          <img class="profil-pic" src="images/profil1.png" class="d-block w-100" alt="profil">
+        </div>
+        <div class="carousel-item" data-interval="3000">
+          <h2>BikeRent is the coolest thing in the city.</h2>
+          <em>John Doe, Fiction city</em>
+          <img class="profil-pic" src="images/profil1.png" class="d-block w-100" alt="profil">
+        </div>
+        <div class="carousel-item" data-interval="3000">
+          <h2>Get a Ride bro, never miss any of the weekly cupons.</h2>
+          <em>Daniel Smith, Grandenburg</em>
+          <img class="profil-pic" src="images/profil1.png" class="d-block w-100" alt="profil">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+
+  <!--    Brand logos section   -->
+  <section id="press">
+    <img class="brand-logo" src="images/brand1.png" alt="logo">
+    <img class="brand-logo" src="images/brand2.png" alt="logo">
+    <img class="brand-logo" src="images/brand3.png" alt="logo">
+    <img class="brand-logo" src="images/brand4.png" alt="logo">
+  </section>
+
+  <!--    Pricing Cards section   -->
+  <section id="pricing">
+    <div class="container pricing-container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="card border-secondary shadow">
+            <div class="card-header">
+              <i class="fab fa-fort-awesome fa-9x"></i>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">From the base</h5>
+              <p class="card-text">Pellentesque commodo consectetur magna a vulputate. Ut tincidunt tortor in ex tempus lobortis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+              <h5>2.49$ / hour</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card border-secondary shadow">
+            <div class="card-header">
+              <i class="fas fa-mobile-alt fa-9x"></i>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">City spots with our mobile-app</h5>
+              <p class="card-text">You can find many spots around the city where you can take a bike for you for limited time. After the use you must take back your bike in some of these spots.</p>
+              <h5>1.99$ / hour</h5>
+              <button type="button" class="btn btn-dark btn-sm download-button"><i class="fab fa-lg fa-apple"></i>
+                Download</button>
+              <button type="button" class="btn btn-outline-dark btn-sm download-button"><i
+                  class="fab fa-google-play"></i> Download</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card border-secondary shadow">
+            <div class="card-header">
+              <i class="fas fa-tree fa-9x"></i>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Nature trip</h5>
+              <p class="card-text">Ut sed nibh vehicula, varius libero sed, lobortis erat. Morbi est odio, ultrices vitae orci in, tempus sagittis est. Aliquam gravida feugiat metus. Cras aliquet lacus enim, euismod mollis purus bibendum eu.</p>
+              <h5>8$ / 4hour</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card border-secondary shadow">
+            <div class="card-header">
+              <i class="fas fa-sun fa-9x"></i>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Daily Ticket</h5>
+              <p class="card-text">Fusce sodales nisl augue, in placerat dui placerat id. Praesent pellentesque enim sit amet lacinia feugiat. Nulla sollicitudin hendrerit nisi, sed viverra tellus tempor ac. Pellentesque sed ex sapien.</p>
+              <h5>18.49$ / 12hour</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card border-secondary shadow">
+            <div class="card-header">
+              <i class="fas fa-angle-double-right fa-9x"></i>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Weekend Ticket</h5>
+              <p class="card-text">Vestibulum a eleifend elit. Aenean condimentum vel nulla a porttitor. Pellentesque dictum arcu nec luctus lobortis. Sed lacinia enim orci, in placerat urna dignissim id. Proin lobortis dictum velit, a facilisis lectus sagittis eget.</p>
+              <h5>34.99$ / Friday 0:01am - Sunday 11:59pm</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card border-secondary shadow">
+            <div class="card-header">
+              <i class="fas fa-cash-register fa-9x"></i>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Buy a new one</h5>
+              <p class="card-text">Pellentesque consequat mi nec enim luctus sollicitudin. Nulla accumsan sapien risus, eget aliquam erat tincidunt dignissim. Morbi aliquet facilisis diam in luctus. Maecenas a fermentum lorem.</p>
+              <h5>0+$ / new or Used</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--    Bikes Section   -->
+  <section id="bikes">
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <div class="card">
+            <img src="images/bike1.jpg" class="card-img-top" alt="Bicycle">
+            <div class="card-body">
+              <h5 class="card-title">Bike type 1</h5>
+              <button class="btn bikes-button" type="button" data-toggle="collapse" data-target="#bike1-collapsed-p" aria-expanded="false" aria-controls="#bike1-collapsed-p">
+                More detail
+              </button>
+              <div class="collapse" id="bike1-collapsed-p">
+                <div class="card card-body bike-collapse-box">
+                  <p class="bike-text">Ut vel molestie risus. Sed viverra justo vel posuere porta. Maecenas id accumsan mi. Fusce placerat ex ante, nec tempus eros sollicitudin id. Praesent accumsan nibh quam. Nunc quis gravida purus. Quisque aliquam felis eget vulputate mattis. Donec tellus tortor, faucibus nec tristique a, iaculis vel dui. Nulla at urna eu nisl dictum pharetra eu et velit.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="card">
+            <img src="images/bike2.jpg" class="card-img-top" alt="Bicycle">
+            <div class="card-body">
+              <h5 class="card-title">Bike type 2</h5>
+              <button class="btn bikes-button" type="button" data-toggle="collapse" data-target="#bike2-collapsed-p" aria-expanded="false" aria-controls="#bike2-collapsed-p">
+                More detail
+              </button>
+              <div class="collapse" id="bike2-collapsed-p">
+                <div class="card card-body bike-collapse-box">
+                  <p class="bike-text">Nullam lorem dolor, blandit et libero blandit, semper vestibulum diam. Sed malesuada lorem vel tellus laoreet, ut iaculis mi tincidunt. Curabitur consectetur posuere risus at condimentum. Curabitur sollicitudin, nisl ut sollicitudin dignissim, tellus magna gravida nulla, a semper nisl libero et neque. Proin in tristique nunc, quis tristique nunc.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="card">
+            <img src="images/bike3.jpg" class="card-img-top" alt="Bicycle">
+            <div class="card-body">
+              <h5 class="card-title">Bike type 3</h5>
+              <button class="btn bikes-button" type="button" data-toggle="collapse" data-target="#bike3-collapsed-p" aria-expanded="false" aria-controls="#bike3-collapsed-p">
+                More detail
+              </button>
+              <div class="collapse" id="bike3-collapsed-p">
+                <div class="card card-body bike-collapse-box">
+                  <p class="bike-text">Fusce sed iaculis felis. Curabitur neque ligula, tempor sit amet tellus ac, finibus pretium odio. Cras eu dui scelerisque enim tristique sollicitudin at eu velit. Aliquam lorem purus, lacinia vel turpis at, dapibus euismod enim. Proin ut efficitur orci, nec gravida metus. Vestibulum enim dui, vestibulum id est vel, pellentesque ornare risus. In nec est nec mauris porta placerat in in ante. Aenean varius justo et lectus rhoncus, in porttitor felis viverra.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <div class="card">
+            <img src="images/bike4.jpg" class="card-img-top" alt="Bicycle">
+            <div class="card-body">
+              <h5 class="card-title">Bike type 4</h5>
+              <button class="btn bikes-button" type="button" data-toggle="collapse" data-target="#bike4-collapsed-p" aria-expanded="false" aria-controls="#bike4-collapsed-p">
+                More detail
+              </button>
+              <div class="collapse" id="bike4-collapsed-p">
+                <div class="card card-body bike-collapse-box">
+                  <p class="bike-text">Ut iaculis augue eu ante ornare, in consectetur nisi porttitor. Fusce maximus, mi nec vehicula commodo, lectus quam aliquet dui, ut rutrum neque libero eget odio. Donec non sagittis lorem. Vivamus nec dui scelerisque, lobortis nunc eu, elementum neque. Donec magna sem, blandit at arcu congue, iaculis semper magna. Quisque ut blandit urna, nec efficitur tellus. Duis congue dapibus pretium. Aliquam dignissim finibus metus non rutrum.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container-fluid">
+
+      <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+      <a href="#"><i class="fab fa-twitter-square fa-2x"></i></a>
+      <a href="#"><i class="fab fa-instagram-square fa-2x"></i></a>
+      <p>Follow us to get coupons and promotions</p>
+    </div>
+
+  </section>
+
+
+  <!--    Thanks for the images    -->
+  <section id="thanks" class="bg-dark">
+    <a href='https://pngtree.com/so/mountain'>mountain png from pngtree.com/</a>
+    <a href="https://www.pikpng.com/pngvi/bJoTbo_my-profile-icon-blank-profile-picture-circle-clipart/"
+      target="_blank">My Profile Icon - Blank Profile Picture Circle Clipart @pikpng.com</a>
+    <a href="https://www.pikpng.com/pngvi/hTxRwTw_velco-logo-velco-bike-clipart/" target="_blank">Velco Logo - Velco
+      Bike Clipart @pikpng.com</a>
+    <a href="https://www.pikpng.com/pngvi/wwihmh_its-just-one-of-the-many-things-we/" target="_blank">It's Just One Of
+      The Many Things We Review During A - Logo Giant Bikes Clipart @pikpng.com</a>
+    <a href="https://www.pikpng.com/pngvi/iooJmJi_citi-bike-new-york-pbsc-urban-solutions-citi/" target="_blank">Citi
+      Bike New York Pbsc Urban Solutions - Citi Bike Clipart @pikpng.com</a>
+    <a href="https://www.pikpng.com/pngvi/iRhhbwh_ride-away-is-a-full-service-bike-shop/" target="_blank">Ride Away Is A
+      Full Service Bike Shop In Toronto, Ontario - Ride Away Bikes Clipart @pikpng.com</a>
+      <a href='https://www.freepik.com/photos/hand'>Hand photo created by jcomp - www.freepik.com</a>
+      <a href='https://www.freepik.com/photos/vintage'>Vintage photo created by marymarkevich - www.freepik.com</a>
+      <a href='https://www.freepik.com/photos/man'>Man photo created by ArthurHidden - www.freepik.com</a>
+
+  </section>
+
+  <!--    Bootstrap JS scripts    -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+    integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

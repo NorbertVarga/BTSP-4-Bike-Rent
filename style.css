@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+/*      font-family: 'Montserrat', sans-serif;      h1++ 
+        font-family: 'Ubuntu', sans-serif;          main
+*/  
+/*  COLORS PALETTE
+    dark green:     #5EA843
+    light green:    #A3F585
+    blue:           #989AF5
+    light brown:    #F5AB87
+    dark brown:     #A8694A
+*/
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 700;
+}
+/*  Header Section box and includes     */
+#title {
+    background: linear-gradient(#A3F585, #5EA843);
+}
+.container-fluid {
+    padding: 3% 10%;
+}
+.navbar {
+    padding: 0 0 60px 0;
+}
+.navbar-brand {
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+.nav-item {
+    padding: 0 20px;
+}
+.nav-link {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    color: white;
+    line-height: 1.5;
+    padding: 20px 0 10px;
+}
+.download-button {
+    margin: 10px 10px 0 10px;
+    font-size: 1.2rem;
+}
+.logo-box {
+    text-align: center;
+}
+.bike-logo {
+    width: 75%;
+    margin: 10px;
+}
+/*  Second Features Section and includes    */
+#features {
+    padding: 10% 10%;
+}
+.features-box {
+    text-align: center;
+    padding: 0 40px;
+}
+.features-box h3 {
+    font-weight: 900;
+    padding: 20px 0;
+}
+.features-box p {
+    color: rgba(66, 66, 66, .7);
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+.big-green-icon {
+    color: #F5AB87;
+}
+.big-green-icon:hover {
+    color: #A8694A;
+}
+#testimonials {
+    
+    text-align: center;
+    background-color: #5EA843;
+}
+/*  Testimonials    */
+#testimonials h2 {
+    font-weight: 700;
+    color: white;
+    font-size: 3rem;
+}
+.profil-pic {
+    width: 10%;
+    margin: 20px;
+}
+.carousel-item {
+    padding: 5% 10%;
+}
+/*  Brand logos     */
+#press {
+    background: linear-gradient(#5EA843,#A3F585);
+    text-align: center;
+    padding: 0 0 50px 0;
+}
+.brand-logo {
+    width: 10%;
+    margin: 0 30px;
+}
+/*  Pricing Cards   */
+#pricing {
+    text-align: center;
+    padding: 5% 10%;
+}
+.pricing-container {
+    max-width: 95%;
+    margin: 0 auto;
+}
+.card {
+    max-width: 90%;
+    margin: 10px auto;
+}
+.card h5 {
+    font-weight: 700;
+    margin: 30px 0;
+}
+.card-header {
+    background: linear-gradient(#A3F585, #5EA843);
+}
+
+#thanks {
+    font-size: 0.8rem;
+}
+#thanks a {
+    margin: 5px 10px;
+}
+/*  Bikes section   */
+#bikes {
+    background: linear-gradient(#5EA843,#A3F585);
+}
+.bikes-button {
+    border: none;
+    background-color: #A8694A;
+    box-shadow: 0 3px 5px rgba(66, 66, 66, .7);
+}
+.bikes-button:hover {
+    background: #F5AB87;
+}
+.bike-text {
+    margin: 0;
+    padding: 0;
+}
+.bike-collapse-box {
+    border: 1px solid #A8694A;
+    background-color: #a3f585;
+}
+/*  Contact section     */
+#contact {
+    text-align: center;
+}
+#contact p {
+    margin: 10px 10px 0;
+    padding: 10px;
+}
+#contact a {
+    padding: 5px;
+    margin: 0 10px;
+    color: #A8694A;
+}
+/*  Media queries  */
+
+@media screen and (max-width: 1200px) {
+    .pricing-card {
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .features-box p {
+        padding: 0 0 20px 0;
+    }
+    h1 {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 580px) {
+    h1 {
+        font-size: 2.4rem;
+        padding: 20px 0;
+    }
+    #testimonials h2 {
+        font-size: 1.8rem;
+    }
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+    .navbar {
+        padding: 0;
+    }
+    #thanks {
+        font-size: 0.5rem;
+    }
+}
+@media screen and (max-width: 480px) {
+    .download-button {
+        font-size: 1rem;
+        width: 120px;
+    }
+}
